@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -34,6 +34,21 @@ dependencies:
   flutter_money_formatter: ^0.8.3
   image_picker:
   path_provider: ^1.6.5
+  material_design_icons_flutter: ^2.0.0
+  url_launcher: ^5.7.10
+  speech_to_text: ^2.3.0
+  highlight_text: ^0.7.2
+  avatar_glow: ^1.2.0
+  google_speech: ^1.2.1
+  charts_flutter: ^0.9.0
+  carousel_slider: ^2.2.1
+  photo_view: ^0.10.2
+  onesignal_flutter: ^2.6.1
+  flutter_search_bar: ^2.1.0
+  toast: ^0.1.5
+  flutter_spinning_wheel: ^1.1.0
+  google_fonts: ^1.1.2
+  
 
 dev_dependencies:
   flutter_test:
@@ -51,8 +66,39 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+  - assets/audio/sample.mp3
+  - assets/images/mastercard.png
+  - assets/images/contact_less.png
+  - assets/images/logo.png
+  - assets/images/tick.svg
+  - assets/images/tick1.svg
+  - assets/images/agent.svg
+  - assets/images/office.svg
+  - assets/images/kyc.svg
+  - assets/images/ranking.svg
+  - assets/images/team.svg
+  - assets/images/sales.svg
+  - assets/images/call-center-agent.svg
+  - assets/images/staff.svg
+  - assets/images/teamwork.svg
+  - assets/images/staff_1.svg
+  - assets/images/analytics.svg
+  - assets/images/application.svg
+  - assets/images/users-group.svg
+  - assets/images/teamwork1.svg
+  - assets/images/standing-up-man.svg
+  - assets/images/agency.svg
+  - assets/images/business-center.svg
+  - assets/images/team-leader.svg
+  - assets/images/box.svg
+  - assets/images/crafts.svg
+  - assets/images/user_account.svg
+  - assets/images/roulette-center-300.png
+  - assets/images/roulette-8-300.png
+  - assets/images/lottery.svg
+
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -66,17 +112,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: CourrierPrime
+      fonts:
+        - asset: assets/fonts/CourierPrime-Regular.ttf
+        # - asset: fonts/Schyler-Italic.ttf
+        #   style: italic
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

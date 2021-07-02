@@ -1,4 +1,4 @@
-package com.example.hrapps
+package com.hrapps_apps.remon
 
 import io.flutter.embedding.android.FlutterActivity
 
